@@ -2,8 +2,10 @@
 
 int  solve(int index,int tar,vector<int>&c,vector<vector<int>>&dp)
     {
-        if(tar==0) return 1;
-        if(index<0)return 0;//not possible way
+        if(tar==0) 
+           return 1;
+        if(index<0)
+           return 0;//not possible way
         
         if(dp[index][tar]!=-1)
         {
